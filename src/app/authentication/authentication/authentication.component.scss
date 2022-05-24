@@ -1,0 +1,38 @@
+h4{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bg3 {
+    /* The image used */
+    background-image: url("https://thumbs.dreamstime.com/b/forex-trading-currency-exchange-rate-internet-investment-business-concept-143701056.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  label{
+      color: white
+  }
+
+  #email{
+     margin-left: 15px; 
+  }
+
+  #password{
+    margin-left: 5px; 
+  }
+  #confirm_password{
+    margin-left: 10px;
+  }
+  #address{
+    margin-left: 13px;
+  }

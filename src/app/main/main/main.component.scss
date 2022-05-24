@@ -1,0 +1,56 @@
+.bg {
+        /* The image used */
+        background-image: url("https://thumbs.dreamstime.com/b/forex-trading-currency-exchange-rate-internet-investment-business-concept-143701056.jpg");
+      
+        /* Full height */
+        height: 100%;
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    
+
+
+
+.currencyInput{
+    margin-top: 150px;
+    size: 30px;
+    border-radius: 2px solid black;
+    margin-left:50px ;
+}
+
+.label{
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color:black;
+background-color: white;
+}
+
+.label2{
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color:black;
+background-color: white;
+}
+
+button{
+    background-color: white;
+    color: black;
+    margin-left: 150px;
+    font-size: 20px;
+padding: 5px;
+}
+
+button:hover{
+cursor: pointer;
+}
+
+span{
+    color:white;
+    font-size:25px;
+    margin-left: 25px;
+}

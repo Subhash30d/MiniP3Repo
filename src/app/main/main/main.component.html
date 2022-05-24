@@ -1,0 +1,30 @@
+<app-header> </app-header>
+
+<div class="bg" style="display:flex;">
+    <div class="col-2">
+        <app-leftnav> </app-leftnav>
+    </div>
+    <div class="col-10">
+    
+        <label for="currencyInput" class="label"> Enter the currency: </label>
+        <input type="number" id="currencyInput" placeholder="Enter the Value in Rupees" class="currencyInput" [(ngModel)]="Rupee">
+
+     <!--   <label for="currency" class="label2"> Choose a currency:</label>
+              <select (change)="changeSelect($event)" name="currency" id="currency" style="padding-left: 20px;padding-right:20px;">
+                  <option value="USdollars"> USdollars </option>
+                  <option value="Euros"> Euros </option>
+                  <option value="Yen"> Yen  </option>
+                  <option value="GBP"> GBP </option>
+              </select>
+-->
+        <button type="submit" (click)="currenyconversion()"> Convert </button>
+
+        <label for="convertedValue" class="label2">  Converted  Value: </label>
+        <span> {{convertedOutput}} </span>
+        
+    
+
+    </div>
+        
+</div>
+
