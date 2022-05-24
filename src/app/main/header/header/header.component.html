@@ -1,0 +1,22 @@
+<div class="row" style="background-color: black;color: white;display:flex;">
+    <div style="display:flex;">
+        <div class="col-4"> 
+            <h1> Home </h1>
+          </div> 
+      
+          <div class="col-4">
+              <h2> Currency Convertor </h2>
+          </div>
+      
+          <label for="currency" class="label2"> Choose a Currency:</label>
+              <select (change)="changeSelect($event)" name="currency" id="currency" [(ngModel)]="headerSelect" style="padding-left: 20px;padding-right:20px;">
+                  <option value="USdollars"> USdollars </option>
+                  <option value="Euros"> Euros </option>
+                  <option value="Yen"> Yen  </option>
+                  <option value="GBP"> GBP </option>
+              </select>
+    </div>
+    
+
+
+</div>
